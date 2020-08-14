@@ -9,7 +9,7 @@ const bodyParser = require('body-parser')
 // Start Coding
 bot.start((ctx) => ctx.reply('Hey, wellcome!'))
 
-bot.command('about', (ctx) => {ctx.reply(`Hey, my name @ritam_mukherjee!`)})
+bot.command('about', (ctx) => {ctx.reply(`Telegram Bot!`)})
 
 bot.command('ip', (ctx) => { 
     require('http').get('http://httpbin.org/ip', (res) => {
