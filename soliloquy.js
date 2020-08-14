@@ -1,7 +1,7 @@
 const dateFns = require('date-fns')
 const format = 'yyyy-MM-dd'
 const nodeFetch = require('node-fetch')
-const BOT_TOKEN = '1250613849:AAF3_AE9s4ooELY5m45TxkzGkQV9G5TpWKQ'
+const BOT_TOKEN = '125849:AAF3_AE9s4ooEG5TpWKQ'
 const { Telegraf } = require('telegraf')
 const bot = new Telegraf(BOT_TOKEN)
 const bodyParser = require('body-parser')
